@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae036998-2bd6-446e-bba2-e93bf34d3da4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/search.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autograder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eightpuzzle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ghostAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicsDisplay.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphicsUtils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keyboardAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/bigCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/bigMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/bigSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/bigSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/boxSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/capsuleClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/contestClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/contoursMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/greedySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumDottedMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumScaryMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/mediumSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/minimaxClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/oddSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/openClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/openMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/openSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/originalClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/powerClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/smallClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/smallMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/smallSafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/smallSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/testClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/testMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/testSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/tinyCorners.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/tinyMaze.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/tinySafeSearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/tinySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/trappedClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/trickyClassic.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/trickySearch.lay" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pacman.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pacmanAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectParams.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/searchAgents.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/searchTestClasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/submission_autograder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testClasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testParser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/pacman_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q1/pacman_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/pacman_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q2/pacman_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_bfs_vs_dfs.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_infinite.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_infinite.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_0_graph.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q3/ucs_5_goalAtDequeue.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_0.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_0.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/graph_backtrack.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q4/graph_manypaths.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/corner_sanity_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/medium_corners.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q6/medium_corners.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_10.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_11.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_12.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_13.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_14.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_15.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_16.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_17.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_4.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_5.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_6.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_7.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_8.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_9.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q7/food_heuristic_grade_tricky.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/CONFIG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_1.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_10.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_11.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_12.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_13.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_2.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_3.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_4.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_5.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_6.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_7.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_8.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.solution" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_cases/q8/closest_dot_9.test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textDisplay.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/search$A_.coverage" NAME="A* Coverage Results" MODIFIED="1505086852218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$search.coverage" NAME="search Coverage Results" MODIFIED="1504908783093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$.coverage" NAME=" Coverage Results" MODIFIED="1504907961300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/search$Unnamed.coverage" NAME="DFS Coverage Results" MODIFIED="1504925378662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$Corners.coverage" NAME="Corners Coverage Results" MODIFIED="1505339545348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$BFS.coverage" NAME="BFS Coverage Results" MODIFIED="1505341639580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$Autograder.coverage" NAME="Autograder Coverage Results" MODIFIED="1505339550385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$DFS.coverage" NAME="DFS Coverage Results" MODIFIED="1504994140632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$pacman.coverage" NAME="pacman Coverage Results" MODIFIED="1504916124918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/search$UCS.coverage" NAME="UCS Coverage Results" MODIFIED="1505334176612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>que</find>
+      <find>searchP</find>
+      <find>stack</find>
+      <find>depthFirstSearch</find>
+      <find>PositionSearchProblem</find>
+      <find>manha</find>
+      <find>staye</find>
+      <find>heapify</find>
+      <find>qu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/pacman.py" />
+        <option value="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.test" />
+        <option value="$PROJECT_DIR$/test_cases/q1/pacman_1.solution" />
+        <option value="$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.solution" />
+        <option value="$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.solution" />
+        <option value="$PROJECT_DIR$/search.py" />
+        <option value="$PROJECT_DIR$/searchAgents.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="392" />
+    <option name="y" value="137" />
+    <option name="width" value="767" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pacman-projects-master/p1_search" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.BFS">
+    <configuration name="A*" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyMaze  -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Autograder" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autograder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="BFS" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Corners" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="DFS" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="--l tinyMaze -p SearchAgent" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="UCS" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyMaze -p SearchAgent -a fn=ucs" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="Python.Ipnb" factoryName="Jupyter Notebook">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="Python.PyramidServer" factoryName="Pyramid server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyMaze -p SearchAgent -a fn=tinyMazeSearch" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pacman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="search" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pacman.py" />
+      <option name="PARAMETERS" value="-l tinyMaze -p SearchAgent -a fn=tinyMazeSearch" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.DFS" />
+      <item index="1" class="java.lang.String" itemvalue="Python.A*" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Corners" />
+      <item index="3" class="java.lang.String" itemvalue="Python.UCS" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BFS" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Autograder" />
+      <item index="6" class="java.lang.String" itemvalue="Python.pacman" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.pacman" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae036998-2bd6-446e-bba2-e93bf34d3da4" name="Default" comment="" />
+      <created>1504842498121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504842498121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="392" y="137" width="1537" height="912" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24647415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50235057" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31660232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.49764943" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37709138" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/search.py</url>
+          <line>69</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/search.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/search.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/searchAgents.py</url>
+          <line>347</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="77" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="Directiondict[current]" language="Python" />
+        <watch expression="not goals" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_4_testSearch.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_backtrack.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_bfs_vs_dfs.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_infinite.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_infinite.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_backtrack.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/pacman_1.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_0_graph.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_0_graph.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/CONFIG">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_1_problemC.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghostAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_0.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_3_goalAtDequeue.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/graph_backtrack.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_1_graph_heuristic.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_2_manhattan.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_manypaths.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_bfs_vs_dfs.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_infinite.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/pacman_1.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_manypaths.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q2/graph_manypaths.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q1/graph_manypaths.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/graph_manypaths.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/graph_manypaths.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testClasses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchTestClasses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3474">
+          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autograder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5166">
+          <caret line="294" column="0" lean-forward="false" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q5/corner_tiny_corner.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q5/CONFIG">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_2_problemE.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q3/ucs_3_problemW.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="150" column="11" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q2/pacman_1.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10854">
+          <caret line="606" column="0" lean-forward="false" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pacman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11484">
+          <caret line="645" column="0" lean-forward="false" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5832">
+          <caret line="343" column="27" lean-forward="false" selection-start-line="343" selection-start-column="27" selection-end-line="343" selection-end-column="27" />
+          <folding>
+            <element signature="e#9485#9882#0" expanded="false" />
+            <element signature="e#10157#10331#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q7/food_heuristic_6.solution">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="148" column="50" lean-forward="false" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
+          <folding>
+            <element signature="e#812#2063#0" expanded="false" />
+            <element signature="e#2099#2500#0" expanded="false" />
+            <element signature="e#6658#6832#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/q4/astar_0.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
