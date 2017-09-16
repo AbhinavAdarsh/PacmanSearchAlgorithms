@@ -139,10 +139,12 @@ def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     queue = util.Queue()
     startState = problem.getStartState();
-
+    
+    visited = []
     explored = [];
     augmentedStartState = (startState, [])
     queue.push(augmentedStartState);
+    visited.append(startState)
 
     while (queue.isEmpty() == False):
         currentState = queue.pop();
@@ -153,9 +155,9 @@ def breadthFirstSearch(problem):
             explored.append(currentState[0]);
             pathTillCurrent = currentState[1]
             for node in expanded:
-                if (node[0] not in explored):
+                if (node[0] not in explored and node[0] not in visited):
                     queue.push((node[0], list(pathTillCurrent + [node[1]])))
-
+                    visited.append(node[0])
 
     "*** YOUR CODE HERE ***"
     util.raiseNotDefined()
