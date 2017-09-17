@@ -381,6 +381,15 @@ def cornersHeuristic(state, problem):
     corners = problem.corners # These are the corner coordinates
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
+    maxDistance = 0
+    x, y = state[0]
+    cornerstoreach = state[1]
+    for item in cornerstoreach:
+        #print "item ",item, "Dist :", manhattanHeuristic(state[0], item)
+        if(maxDistance < abs(item[0] - x) + abs(item[1] - y)):
+            maxDistance = abs(item[0] - x) + abs(item[1] - y)
+
+    return maxDistance
     "*** YOUR CODE HERE ***"
     return 0 # Default to trivial solution
 
