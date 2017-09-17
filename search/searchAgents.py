@@ -484,6 +484,20 @@ def foodHeuristic(state, problem):
     problem.heuristicInfo['wallCount']
     """
     position, foodGrid = state
+    
+    #print "pos :", position, "Grid :", foodGrid
+    problem.heuristicInfo['wallCount'] = problem.walls.count()
+
+    #print "Walls : " , problem.heuristicInfo['wallCount']
+    walls = problem.walls
+    maxDistance = 0
+    foodPoints =  foodGrid.asList()
+
+    for food in foodPoints:
+        if maxDistance < (abs(position[0] - food[0]) + abs(position[1] - food[1])):
+            maxDistance = abs(position[0] - food[0]) + abs(position[1] - food[1])
+
+    return maxDistance
     "*** YOUR CODE HERE ***"
     return 0
 
