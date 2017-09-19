@@ -338,7 +338,7 @@ class CornersProblem(search.SearchProblem):
             nextx, nexty = int(x + dx), int(y + dy)
             if not self.walls[nextx][nexty]:
                 nextState = (nextx, nexty)
-                if nextState in self.corners:
+                if nextState in self.corners and  nextState not in cornersvisited:
                     temp = list(cornersvisited)
                     temp.append(nextState)
                     cornersvisited=tuple(temp)
@@ -379,15 +379,20 @@ def cornersHeuristic(state, problem):
     corners = problem.corners # These are the corner coordinates
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
-    maxDistance = 100000
+    maxDistance = 999999
     (x, y), cornersList = state
     #cornerstoreach = state[1]
-    for item in corners:
+    for item in corners :
         #print "item ",item, "Dist :", manhattanHeuristic(state[0], item)
-        if(maxDistance > abs(item[0] - x) + abs(item[1] - y)):
-            maxDistance = abs(item[0] - x) + abs(item[1] - y)
+            if(maxDistance > abs(item[0] - x) + abs(item[1] - y)):
+                maxDistance = abs(item[0] - x) + abs(item[1] - y)
+                mincorner = item;
+
+
 
     return maxDistance
+
+
     "*** YOUR CODE HERE ***"
     return 0 # Default to trivial solution
 
