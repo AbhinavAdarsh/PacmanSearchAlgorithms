@@ -94,31 +94,36 @@ def depthFirstSearch(problem):
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
+
+    # Here we make use of the stack data stucture to store the state  (Coordinates, Direction ,Cost)
+    # along a particular path in the search space. Along with it we maintain a dictionary which keeps record
+    # of the parent of a particular node to reconstruct the path which the pacman will take to reach the goal
+    #In DFS search the deepest node first before looking at its siblings.We make use of explored list to eliminate nodes
+    #that have been visited and exapnded earlier
+
     stack = util.Stack()
-    directionStack =util.Stack()
-    startState = problem.getStartState();
+    startState = problem.getStartState()
 
     explored= set();
     augmentedStartState = (startState,'START',0)
-    stack.push(augmentedStartState);
+    stack.push(augmentedStartState)
 
     Directiondict = {}
 
     while(stack.isEmpty()== False):
-        currentState = stack.pop();
+        currentState = stack.pop()
         if (problem.isGoalState(currentState[0])) :
-            directions =util.Stack();
+            directions =util.Stack()
             directions.push(currentState[1])
             current = currentState
             while(current != augmentedStartState):
-                directions.push(Directiondict[current][1]);
-                current = Directiondict[current];
+                directions.push(Directiondict[current][1])
+                current = Directiondict[current]
             directions.list.reverse()
-            print(' '.join(directions.list[1:]));
             return ( directions.list[1:])
         else:
-            expanded = problem.getSuccessors(currentState[0]);
-            explored.add(currentState[0]);
+            expanded = problem.getSuccessors(currentState[0])
+            explored.add(currentState[0])
             for node in expanded :
                 if(node[0] not in explored):
                      stack.push(node)
@@ -136,7 +141,15 @@ def depthFirstSearch(problem):
     util.raiseNotDefined()
 
 def breadthFirstSearch(problem):
-    """Search the shallowest nodes in the search tree first."""
+
+    # Here we make use of the queue data stucture to store the state  (Coordinates,Path till current state)
+    # along a particular path in the search space. We make use of the second member of the tuple to obtain
+    # the path to goal .In BFS search the shallowest node first before looking at its other siblings.We make
+    #use of explored list for node whose children have been generated and visted list for the node which have
+    # been added into the queue
+
+
+
     queue = util.Queue()
     startState = problem.getStartState();
     
@@ -163,30 +176,35 @@ def breadthFirstSearch(problem):
     util.raiseNotDefined()
 
 def uniformCostSearch(problem):
-    """Search the node of least total cost first."""
-    priorityQueue = util.PriorityQueue()
-    directionStack = util.Stack()
-    startState = problem.getStartState();
+    # Here we make use of the priority queue data stucture to store the state  (Coordinates,Path till current state)
+    # along a particular path in the search space. We make use of the second member of the tuple to obtain
+    # the path to goal .In uniform cost search the least cost node first before looking at its other siblings.we make use
+    # of explored list to keep track of nodes whose children have been generated.Also if a path with lesser cost
+    # been found out then we update the cost in the priority queue.
 
-    explored = set();
+
+    priorityQueue = util.PriorityQueue()
+    startState = problem.getStartState()
+
+    explored = set()
     augmentedStartState = (startState,[])
-    priorityQueue.update(augmentedStartState,0);
+    priorityQueue.update(augmentedStartState,0)
     costFromStartNode ={}
-    costFromStartNode[augmentedStartState[0]] =0;
+    costFromStartNode[augmentedStartState[0]] =0
 
 
     while (priorityQueue.isEmpty() == False):
-        currentState = priorityQueue.pop();
+        currentState = priorityQueue.pop()
         if (problem.isGoalState(currentState[0])):
             return currentState[1]
         else:
             expanded = problem.getSuccessors(currentState[0]);
-            explored.add(currentState[0]);
+            explored.add(currentState[0])
             pathTillCurrent = currentState[1]
             for node in expanded:
                 if (node[0] not in explored ):
                     if(node[0] in costFromStartNode):
-                        currentCost = costFromStartNode[currentState[0]] + node[2];
+                        currentCost = costFromStartNode[currentState[0]] + node[2]
                         previousCost = costFromStartNode[node[0]];
                         if(currentCost < previousCost):
                             costFromStartNode[node[0]] = currentCost
@@ -208,9 +226,14 @@ def nullHeuristic(state, problem=None):
     return 0
 
 def aStarSearch(problem, heuristic=nullHeuristic):
-    """Search the node that has the lowest combined cost and heuristic first."""
+    # Here we make use of the priority queue data stucture to store the state  (Coordinates,direction,cost)
+    # along a particular path in the search space. We make use of the second member of the tuple to obtain
+    # the path to goal .In Astar search the least cost node (in terms of g(n) and h(n)) is searched
+    #  first before looking at its other siblings.we make use of explored list to keep track of nodes
+    # whose children have been generated.Also if a path with lesser cost been found out then we update
+    # the cost in the priority queue.A dictionary is maintained to obtain the path to goal
+
     priorityQueue = util.PriorityQueue()
-    directionStack = util.Stack()
     startState = problem.getStartState();
 
     explored = set();

@@ -276,6 +276,10 @@ class CornersProblem(search.SearchProblem):
     You must select a suitable state space and successor function
     """
 
+    # In order to solve the corners problem we have encoded the state as follows
+    # the coordinates as well as a tuple to keep track of the corners visited in the
+    # current path
+
     def __init__(self, startingGameState):
         """
         Stores the walls, pacman's starting position and corners.
@@ -307,8 +311,9 @@ class CornersProblem(search.SearchProblem):
         """
         Returns whether this search state is a goal state of the problem.
         """
+
         "*** YOUR CODE HERE ***"
-        cornersvisited = state[1];
+        cornersvisited = state[1]
         return set(self.corners) == set(cornersvisited);
         util.raiseNotDefined()
 
@@ -387,7 +392,8 @@ def cornersHeuristic(state, problem):
          if item not in cornersList:
             if (maxDistance < abs(item[0] - x) + abs(item[1] - y)):
                 maxDistance = abs(item[0] - x) + abs(item[1] - y)
-                
+
+
 
 
 
