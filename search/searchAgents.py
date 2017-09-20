@@ -367,15 +367,6 @@ class CornersProblem(search.SearchProblem):
             if self.walls[x][y]: return 999999
         return len(actions) 
     
-# Corners Heuristic Formulation
-# We relaxed the problem by removing the restriction that Pac-man cannot move through walls. Now, the Pac-man
-# can move to all the four corners without any obstacle in the grid. Also, we know that the optimal solution to a 
-# relaxed problem is an admissible heuristic for the original problem. So, we used Manhattan distance between 
-# Pac-man’s current coordinates and each of the corners. To make it admissible and consistent, we had to make
-# sure that for each node the heuristic gives a value lower than the least path cost to reach goal (i.e. Corners) from
-# that particular node. Moreover, the value should be decreasing as we approach every unvisited corner. So, we 
-# decided to take maximum of the manhattan distances of each unvisited corner from the current coordinates.
-    
 def cornersHeuristic(state, problem):
     """
     A heuristic for the CornersProblem that you defined.
@@ -464,17 +455,7 @@ class AStarFoodSearchAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
     def __init__(self):
         self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
-        self.searchType = FoodSearchProblem
-        
-# Food Problem Heuristic Formulation
-# We relaxed the problem by removing the restriction that Pac-man cannot travel through the walls. 
-# Now, the Pac-man can move to all the points in the food grid without any obstacle. Also, we know
-# that the optimal solution to a relaxed problem is an admissible heuristic for the original problem.
-# So, we used Manhattan distance between the current position and and each of points where food is 
-# located. To make it admissible and consistent, we had to make sure that at each position the heuristic
-# gives a lower bound on the optimal path taken to reach  any food point.  Moreover, the value should be
-# decreasing as we approach each upcoming food point. So, we decided to take the maximum of the distances
-# of each unvisited food point from the Pac-man’s current position.        
+        self.searchType = FoodSearchProblem    
         
 def foodHeuristic(state, problem):
     """
