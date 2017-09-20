@@ -367,6 +367,11 @@ class CornersProblem(search.SearchProblem):
             if self.walls[x][y]: return 999999
         return len(actions) 
     
+# Corner Heuristic 
+# We relaxed the problem by removing the restriction that Pac- man cannot move through walls. 
+# We used Manhattan distance between Pac-man’s current coordinates and each of the corners. 
+# We decided to take maximum of the manhattan distances of each unvisited corner from the current coordinates.
+
 def cornersHeuristic(state, problem):
     """
     A heuristic for the CornersProblem that you defined.
@@ -456,7 +461,12 @@ class AStarFoodSearchAgent(SearchAgent):
     def __init__(self):
         self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
         self.searchType = FoodSearchProblem    
-        
+ 
+# Food Search Heuristic 
+# We relaxed the problem by removing the restriction that Pac- man cannot move through walls. 
+# We used Manhattan distance between Pac-man’s current coordinates and each of the food points. 
+# We decided to take maximum of the manhattan distances of each unvisited food point from the current coordinates.
+
 def foodHeuristic(state, problem):
     """
     Your heuristic for the FoodSearchProblem goes here.
