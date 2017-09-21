@@ -276,9 +276,9 @@ class CornersProblem(search.SearchProblem):
     You must select a suitable state space and successor function
     """
 
-    # In order to solve the corners problem we have encoded the state as follows
-    # the coordinates as well as a tuple to keep track of the corners visited in the
-    # current path
+    # In order to solve the corners problem we have encoded the state which contains Coordinates along with a tuple
+    # to keep track of the corners visited in the current path. We keep on adding the corners as soon as we visit them.
+    # So, if along a single path, all the four corners are visited, the goal state is reached. 
 
     def __init__(self, startingGameState):
         """
@@ -314,7 +314,7 @@ class CornersProblem(search.SearchProblem):
 
         "*** YOUR CODE HERE ***"
         cornersvisited = state[1]
-        return set(self.corners) == set(cornersvisited);
+        return set(self.corners) == set(cornersvisited)
         util.raiseNotDefined()
 
     def getSuccessors(self, state):
@@ -372,8 +372,12 @@ class CornersProblem(search.SearchProblem):
             dx, dy = Actions.directionToVector(action)
             x, y = int(x + dx), int(y + dy)
             if self.walls[x][y]: return 999999
-        return len(actions)
-
+        return len(actions) 
+    
+# Corner Heuristic 
+# We relaxed the problem by removing the restriction that Pac- man cannot move through walls. 
+# We used Manhattan distance between Pac-man’s current coordinates and each of the corners. 
+# We decided to take maximum of the manhattan distances of each unvisited corner from the current coordinates.
 
 def cornersHeuristic(state, problem):
     """
@@ -398,19 +402,12 @@ def cornersHeuristic(state, problem):
 
     maxDistance = 0
     (x, y), cornersList = state
-    # cornerstoreach = state[1]
     for item in corners:
-        # print "item ",item, "Dist :", manhattanHeuristic(state[0], item)
          if item not in cornersList:
             if (maxDistance < abs(item[0] - x) + abs(item[1] - y)):
                 maxDistance = abs(item[0] - x) + abs(item[1] - y)
 
-
-
-
-
     return maxDistance
-
 
     "*** YOUR CODE HERE ***"
     return 0 # Default to trivial solution
@@ -475,7 +472,12 @@ class AStarFoodSearchAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
     def __init__(self):
         self.searchFunction = lambda prob: search.aStarSearch(prob, foodHeuristic)
-        self.searchType = FoodSearchProblem
+        self.searchType = FoodSearchProblem    
+ 
+# Food Search Heuristic 
+# We relaxed the problem by removing the restriction that Pac- man cannot move through walls. 
+# We used Manhattan distance between Pac-man’s current coordinates and each of the food points. 
+# We decided to take maximum of the manhattan distances of each unvisited food point from the current coordinates.
 
 def foodHeuristic(state, problem):
     """
@@ -505,15 +507,14 @@ def foodHeuristic(state, problem):
     Subsequent calls to this heuristic can access
     problem.heuristicInfo['wallCount']
     """
-    position, foodGrid = state
     
-    #print "pos :", position, "Grid :", foodGrid
+    position, foodGrid = state
     problem.heuristicInfo['wallCount'] = problem.walls.count()
 
-    #print "Walls : " , problem.heuristicInfo['wallCount']
     walls = problem.walls
     maxDistance = 0
     foodPoints =  foodGrid.asList()
+    
     for food in foodPoints:
         if maxDistance < (abs(position[0] - food[0]) + abs(position[1] - food[1])):
             maxDistance = abs(position[0] - food[0]) + abs(position[1] - food[1])
