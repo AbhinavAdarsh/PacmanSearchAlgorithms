@@ -120,6 +120,7 @@ def depthFirstSearch(problem):
                 directions.push(Directiondict[current][1])
                 current = Directiondict[current]
             directions.list.reverse()
+
             return ( directions.list[1:])
         else:
             expanded = problem.getSuccessors(currentState[0])
@@ -162,6 +163,7 @@ def breadthFirstSearch(problem):
     while (queue.isEmpty() == False):
         currentState = queue.pop();
         if (problem.isGoalState(currentState[0])):
+
             return currentState[1]
         else:
             expanded = problem.getSuccessors(currentState[0]);
@@ -196,6 +198,7 @@ def uniformCostSearch(problem):
     while (priorityQueue.isEmpty() == False):
         currentState = priorityQueue.pop()
         if (problem.isGoalState(currentState[0])):
+
             return currentState[1]
         else:
             expanded = problem.getSuccessors(currentState[0]);
@@ -246,6 +249,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     while (priorityQueue.isEmpty() == False):
         currentState = priorityQueue.pop();
         if (problem.isGoalState(currentState[0])):
+
             directions = util.Stack();
             directions.push(currentState[1])
             current = currentState

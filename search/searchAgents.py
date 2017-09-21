@@ -338,6 +338,13 @@ class CornersProblem(search.SearchProblem):
             #   hitsWall = self.walls[nextx][nexty]
 
             "*** YOUR CODE HERE ***"
+
+            # here we check if any of the successors are a corner.
+            # If yes then we add it to the corners visited tuple.
+            # This helps us to keep track of the corners that have been visited
+            # in the current path.As an optimization we do not consider previously visted
+            # corners to reduce duplicate searches
+
             (x, y),cornersvisited = state
             dx, dy = Actions.directionToVector(action)
             nextx, nexty = int(x + dx), int(y + dy)
@@ -381,6 +388,11 @@ def cornersHeuristic(state, problem):
     shortest path from the state to a goal of the problem; i.e.  it should be
     admissible (as well as consistent).
     """
+
+    #Here we make use of the manhattan distance across all corners w.r.t current
+    #state. We now that the solution to the problem will be atleast greater than or equal to the
+    # maximum manhattan distance for all corners yet to be visited
+
     corners = problem.corners # These are the corner coordinates
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
 
