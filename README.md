@@ -1,4 +1,4 @@
-# AIProject
+# Search Algorithms used by Pacman to search for food pallets in Pacman world.
 
 This Project contains the implementation of different search algorithms used by Pacman.
 
